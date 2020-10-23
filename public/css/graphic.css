@@ -1,0 +1,91 @@
+.graphic{
+background-color: silver;
+width: 100%;
+height: 80vh;
+display: grid;
+grid-template-columns: 0.34fr 1fr 1fr 1fr 1fr 1fr 1fr 0.35fr;
+grid-template-rows: 1.5fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr;
+row-gap: 25px;
+column-gap: 25px;
+}
+
+.description-graphic{
+
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  padding: 0 10px 10px 0;
+}
+.description-graphic h1{
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.description-graphic p{
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.columns{
+  position: relative;
+}
+.columns .price{
+  background-color: #005499;
+  padding: 10px;
+  font-weight: bolder;
+  color: white;
+}
+.price h1{
+  font-size: 2rem;
+}
+.price p{
+  font-size: 1rem;
+}
+.information{
+  padding: 15px 10px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.column-1{
+  background: #0088ED;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 8;
+  grid-row-end: 13;
+}
+.column-2{
+  background: #0088ED;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 7;
+  grid-row-end: 13;
+}
+.column-3{
+  background: #0088ED;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 13;
+}
+.column-4{
+  background: rgb(0, 136, 237);
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 13;
+}
+.column-5{
+  background: #0088ED;
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 13;
+}
+.column-6{
+  background: #0088ED;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 13;
+}

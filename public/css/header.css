@@ -1,0 +1,46 @@
+header{
+  width: 100%;
+  height: 100%;
+  background-image: url(../image/background-mountain.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.data-header{
+  background-color:rgba(0, 45, 255,0.6);
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.data-header img{
+  padding: 20px;
+  margin: 7% 0 3% 0;
+}
+
+.data-header strong{
+  width: 55%;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bolder;
+}
+
+button.see-now{
+  margin-top: 5%;
+  width: 280px;
+  height: 60px;
+  background-color: white;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  border: 1px solid white;
+  
+}
+
+
+
+
