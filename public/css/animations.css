@@ -1,59 +1,79 @@
-@keyframes slideNature{
-  0%,100%{
+@keyframes slideNature {
+  0%,
+  100% {
     background-image: url(../image/01.jpg);
-  }25%{
+  }
+  25% {
     background-image: url(../image/02.jpg);
-  }50%{
+  }
+  50% {
     background-image: url(../image/03.jpg);
-  }75%{
+  }
+  75% {
     background-image: url(../image/04.jpg);
   }
 }
 
-@keyframes slideDaily{
-  0%,100%{
+@keyframes slideDaily {
+  0%,
+  100% {
     background-image: url(../image/05.jpg);
-  }25%{
+  }
+  25% {
     background-image: url(../image/06.jpg);
-  }50%{
+  }
+  50% {
     background-image: url(../image/07.jpg);
-  }75%{
+  }
+  75% {
     background-image: url(../image/08.jpg);
   }
 }
 
-@keyframes slideAnalysis{
-  0%,100%{
+@keyframes slideAnalysis {
+  0%,
+  100% {
     background-image: url(../image/09.jpg);
-  }25%{
+  }
+  25% {
     background-image: url(../image/10.jpg);
-  }50%{
+  }
+  50% {
     background-image: url(../image/11.jpg);
-  }75%{
+  }
+  75% {
     background-image: url(../image/12.jpg);
   }
 }
 
-@keyframes slideTogether{
-  0%,100%{
+@keyframes slideTogether {
+  0%,
+  100% {
     background-image: url(../image/17.jpg);
-  }25%{
+  }
+  25% {
     background-image: url(../image/18.jpg);
-  }50%{
+  }
+  50% {
     background-image: url(../image/19.jpg);
-  }75%{
+  }
+  75% {
     background-image: url(../image/20.jpg);
   }
 }
 
-@keyframes slidePictures{
-  0%,100%{
+@keyframes slidePictures {
+  0%,
+  100% {
     background-image: url(../image/13.jpg);
-  }25%{
+  }
+  25% {
     background-image: url(../image/14.jpg);
-  }50%{
+  }
+  50% {
     background-image: url(../image/12.jpg);
-  }75%{
+  }
+  75% {
     background-image: url(../image/07.jpg);
   }
 }
